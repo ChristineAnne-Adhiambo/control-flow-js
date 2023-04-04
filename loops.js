@@ -18,7 +18,8 @@ function multiplyByTwo() {
   }
   multiplyByTwo();
 
-/*Write a function that takes in an array of numbers and consoles the first four items multiplied by 8 and the last two added by 5.
+/*Write a function that takes in an array of numbers and consoles the first four items multiplied
+ by 8 and the last two added by 5.
  Console the array with the new values */
  let arr1 = [3,4,5,2,6,7];
  multiplyNumbers(arr1);
@@ -31,6 +32,7 @@ function multiplyByTwo() {
      num[lasttwo- 1] += 5;
      console.log(num);
  }
+ 
 
   /*Write a function that takes in the following
    array and use a while loop to iterate 
@@ -39,17 +41,19 @@ let arrNum = [1,2,3,4,5,6,7,8,9]; */
 function breakAtIndexFour(arr) {
   let i = 0;
   while(i < arr.length) {
-  if(i === 4) {
+  if(i === 5) {
   break;
   }
+  console.log(arr[i]);
   i++;
   }
-  return arr[i];
-  }
-  
+}
   let arrNum = [1,2,3,4,5,6,7,8,9];
-  console.log(breakAtIndexFour(arrNum));
-  breakAtIndexFour(arrNum)
+  breakAtIndexFour(arrNum);
+  
+  
+  
+  
 
   /*Write a function that takes in a an array of 
   strings and use a continue statement when the item is at the second index
